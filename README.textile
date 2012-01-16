@@ -1,0 +1,31 @@
+h1. LoveHash
+h2. A simple spatial hash for Love2D projects
+
+This library is designed to help ease the strain on collision calls when
+dealing with a large number of objects, i.e. bullets, particles, hordes
+of zombies, etc.
+
+*Current Benefits*
+* Reduces the time spent checking collisions by reducing the scope of each
+object;
+* Easy to use;
+* Easy to understand.
+
+*To Do*
+* Implement better checking for objects near a hash border;
+* Implement better checking for objects bigger than the size of the hash
+it is in;
+* Add the option of using a simple grid or a quadtree.
+
+h3. The demo
+Located in the Downloads page is a demo application for the hash. The
+"Love2D engine":http://www.love2d.org/ is required to run the demo.
+
+*Keyboard Controls*
+* TAB:	Toggles between using the spatial hash and not;
+* P:	Pauses the demo;
+* H:	Toggles the banner showing the timing/hash information.
+* ESC:	Quits the demo.
+
+_Change Log_
+* 1/16/12: Initial upload of library.
