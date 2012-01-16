@@ -1,4 +1,5 @@
 h1. LoveHash
+
 h2. A simple spatial hash for Love2D projects
 
 This library is designed to help ease the strain on collision calls when
@@ -18,6 +19,7 @@ it is in;
 * Add the option of using a simple grid or a quadtree.
 
 h3. The demo
+
 Located in the Downloads page is a demo application for the hash. The
 "Love2D engine":http://www.love2d.org/ is required to run the demo.
 
